@@ -1,3 +1,3 @@
 # Big Query SQL
-**Just using my SQL skills to view Vehcile Data**
-SQL Fun
+**Just having some fun using my SQL skills to view Vehcile Data**
+
