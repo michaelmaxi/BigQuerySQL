@@ -3,3 +3,5 @@
 
 You can find Google BigQuery --> [Click Here](https://cloud.google.com/bigquery)
 
+**Interesting SQL Examples**
+1. CTE - Common Table Expression using "WITH MyTable AS.." Example [Click Here](http://www.myline)
