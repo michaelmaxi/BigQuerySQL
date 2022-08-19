@@ -14,3 +14,4 @@ You can find Google BigQuery --> [Click Here](https://cloud.google.com/bigquery)
 8. SQL allows for tables to be PARTITIONED BY for big data retrieval efficency.  You can see partitions by running SHOW PARTITIONS MyTableWithPartitions
 9. Add examples of CORR() Correlations
 10. Add examples of STDDEV() Standard Deviations
+11. Big Data - SELECT COUNT(DISTINCT myField) vs SELECT APPROX_COUNT_DISTINCT(myField) where an fast approximation is good enough on an extreamely large dataset. 
