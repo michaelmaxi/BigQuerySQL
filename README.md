@@ -12,3 +12,5 @@ You can find Google BigQuery --> [Click Here](https://cloud.google.com/bigquery)
 6. SQL GROUP BY includes optional ROLLUP & CUBE, further testing required.
 7. SQL SELECT STREAM url, COUNT(1) FROM ... GROUP BY STEP(rowtime BY INTERVAL '10' SECOND), url; You can GROUP BY/STEP in time intervals to process streams. Also called Tumbling Windows.  
 8. SQL allows for tables to be PARTITIONED BY for big data retrieval efficency.  You can see partitions by running SHOW PARTITIONS MyTableWithPartitions
+9. Add examples of CORR() Correlations
+10. Add examples of STDDEV() Standard Deviations
