@@ -15,3 +15,4 @@ You can find Google BigQuery --> [Click Here](https://cloud.google.com/bigquery)
 9. Add examples of CORR() Correlations
 10. Add examples of STDDEV() Standard Deviations
 11. Big Data - SELECT COUNT(DISTINCT myField) vs SELECT APPROX_COUNT_DISTINCT(myField) where an fast approximation is good enough on an extreamely large dataset. 
+12. RANK() by department and start date - SELECT firstname, department, startdate, RANK() OVER(PARTITION BY department ORDER BY startdate) AS Rank FROM employees;
