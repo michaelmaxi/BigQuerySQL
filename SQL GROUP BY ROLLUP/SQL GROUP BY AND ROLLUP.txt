@@ -1,0 +1,18 @@
+/* Group by */ 
+SELECT
+  year, month, make, vehicle_category, model, sum(qty) as SalesQty
+FROM 
+  `aerial-tide-353016.VFACTS.Vehicles-Queensland` 
+GROUP BY year, month, make, vehicle_category, model
+ORDER BY year, month, make, vehicle_category, model, SalesQty desc;
+/* See results1.png */
+
+/* Group by ROLLUP */
+SELECT
+  year, month, make, vehicle_category, model, sum(qty) as SalesQty
+FROM 
+  `aerial-tide-353016.VFACTS.Vehicles-Queensland` 
+GROUP BY ROLLUP(year, month, make, vehicle_category, model)
+ORDER BY year, month, make, vehicle_category, model, SalesQty desc;
+/* See results2.png Notice the NULL and subtotal values are added here */
+
